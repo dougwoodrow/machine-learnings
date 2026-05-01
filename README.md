@@ -7,8 +7,16 @@ written by me.
 
 ## Getting started
 
+This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
+
 ```
-python -m venv venv && pip install -r requirements.txt
+uv sync
+```
+
+Then run scripts with `uv run`, e.g.:
+
+```
+uv run python agents/agents.py
 ```
 
 ## Projects
